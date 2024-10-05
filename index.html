@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zomato clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="root-container">
+            <div class="hero-container">
+                <nav class="nav-bar-elem">
+                    <div class="spacing-container"><a href="#" id="nav-first-elem">Get the app</a></div>
+                    <div class="list-container">
+                        <ul>
+                            <li><a href="#" class="nav-elem">Investor Relations</a></li>
+                            <li><a href="#" class="nav-elem">Add restaurant</a></li>
+                            <li><a href="#" class="nav-elem">Log in</a></li>
+                            <li><a href="#" class="nav-elem">Sign up</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="logo-container">
+                    <div class="sub-logo-container">
+                        <div class="main-logo-container">
+                            <img src="/images/zomato-logo.png" id="logo">
+                        </div>
+                    </div>
+                    <h1 id="heading">Discover the best food & drinks in<span id="span-text">Pune</span></h1>
+                    <div class="search-container">
+                        <div class="icon-container">
+                            <span id="loc-logo"><i class="fa-solid fa-location-dot"></i></span>
+                            <input placeholder="pune, india" class="location-input">
+                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                            <div class="line"></div>
+                        </div>
+                        <div class="search-bar">
+                            <div class="icon-glass">
+                                <div id="glass-logo">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <input class="search-input" type="text"
+                                    placeholder="Search for restaurant cuisine or a dish">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mid-container">
+        <div class="sub-mid-container">
+            <div class="img-container">
+                <div class="boxes-container">
+                    <div class="box-1">
+                        <a href="#">
+                            <div class="img-1">
+                                <img src="/images/box-1.png" class="image">
+                            </div>
+                            <div class="para-container">
+                                <p class="para-text">Order online</p>
+                                <p class="para2-text">Stay home and order to your doorstep</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box-2">
+                        <a href="#">
+                            <div class="img-1">
+                                <img src="/images/box-2.png" class="image">
+                            </div>
+                            <div class="para-container">
+                                <p class="para-text">Dining</p>
+                                <p class="para2-text">View the city's favourite dining venues</p>
+                            </div>
+                        </a>
+                        </a>
+                    </div>
+                    <div class="box-3">
+                        <a href="#">
+                            <div class="img-1">
+                                <img src="/images/box-3.png" class="image">
+                            </div>
+                            <div class="para-container">
+                                <p class="para-text">Nightlife</p>
+                                <p class="para2-text">Explore the city's top nightlife outlets</p>
+                            </div>
+                        </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid-section-container">
+            <div class="mid-heading-container">
+                <h2 id="colle-heading">Collections</h2>
+                <div class="heading2-container">
+                    <h6 id="colle2-heading">Explore curated lists of top restaurant,cafes,pubs,and bars in pune, based
+                        on trends</h6>
+                    <a>
+                        <span id="allcoll-s">
+                            All collection in pune
+                            <span id="r-icon"><i class="fa-solid fa-caret-right"></i></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="imgcoll-container">
+            <div class="content-mid">
+                <div class="images-container">
+                    <a href="#">
+                        <div class="lmg1-container">
+                            <div class="text-con">
+                                <p>10 Navratri special Restaurant</p>
+                                <h6 class="places">10 places <span class="img-icon">
+                                        <i class="fa-solid fa-caret-right"></i></span></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="lmg2-container">
+                            <div class="text-con">
+                                <p>25 Live cricket screening</p>
+                                <h6 class="places">26 places <span class="img-icon"><i
+                                            class="fa-solid fa-caret-right"></i></span></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="lmg3-container">
+                            <div class="text-con">
+                                <p>12 Best Insta-worthy places</p>
+                                <h6 class="places">11 places <span class="img-icon"><i
+                                            class="fa-solid fa-caret-right"></i></span></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="lmg4-container">
+                            <div class="text-con">
+                                <p>14 Must-Legendary places</p>
+                                <h6 class="places">13 places <span class="img-icon"><i
+                                            class="fa-solid fa-caret-right"></i></span></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="places-container">
+            <div class="places-mid-container">
+                <div class="place-cont-heading">
+                    <p id="place-heading">Popular localities in and around</p>
+                    <span id="pune-txt">Pune</span>
+                </div>
+                <div class="places-location-container">
+                    <div class="first-3">
+                        <div class="places-content">
+                            <div class="sub-places-container">
+                                <a href="#">
+                                    <div class="main-location-container">
+                                        <div class="location-container">
+                                            <h5>Baner</h5>
+                                            <p>551 Places</p>
+                                        </div>
+                                        <span class="location-icon-R"><i class="fa-solid fa-angle-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="places-content">
+                            <div class="sub-places-container">
+                                <a href="#">
+                                    <div class="main-location-container">
+                                        <div class="location-container">
+                                            <h5>Viman Nagar</h5>
+                                            <p>554 Places</p>
+                                        </div>
+                                        <span class="location-icon-R"><i class="fa-solid fa-angle-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="places-content">
+                            <div class="sub-places-container">
+                                <a href="#">
+                                    <div class="main-location-container">
+                                        <div class="location-container">
+                                            <h5>Hinjawadi</h5>
+                                            <p>971 Places</p>
+                                        </div>
+                                        <span class="location-icon-R"><i class="fa-solid fa-angle-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-3">
+                        <div class="places-content">
+                            <div class="sub-places-container">
+                                <a href="#">
+                                    <div class="main-location-container">
+                                        <div class="location-container">
+                                            <h5>Koregaon Park</h5>
+                                            <p>206 Places</p>
+                                        </div>
+                                        <span class="location-icon-R"><i class="fa-solid fa-angle-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="places-content">
+                            <div class="sub-places-container">
+                                <a href="#">
+                                    <div class="main-location-container">
+                                        <div class="location-container">
+                                            <h5>Wakad</h5>
+                                            <p>766 Places</p>
+                                        </div>
+                                        <span class="location-icon-R"><i class="fa-solid fa-angle-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="places-content">
+                            <div class="sub-places-container">
+                                <a href="#">
+                                    <div class="main-location-container">
+                                        <div class="location-container">
+                                            <h5>Kothrud</h5>
+                                            <p>677 Places</p>
+                                        </div>
+                                        <span class="location-icon-R"><i class="fa-solid fa-angle-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-3">
+                        <div class="places-content">
+                            <div class="sub-places-container">
+                                <a href="#">
+                                    <div class="main-location-container">
+                                        <div class="location-container">
+                                            <h5>Kalyani Nagar</h5>
+                                            <p>136 Places</p>
+                                        </div>
+                                        <span class="location-icon-R"><i class="fa-solid fa-angle-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="places-content">
+                            <div class="sub-places-container">
+                                <a href="#">
+                                    <div class="main-location-container">
+                                        <div class="location-container">
+                                            <h5>Kharadi</h5>
+                                            <p>670 Places</p>
+                                        </div>
+                                        <span class="location-icon-R"><i class="fa-solid fa-angle-right"></i></span>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="places-content">
+                            <div class="see-more-outer-container">
+                                <a href="#">
+                                    <div class="see-more-container">
+                                        <div class="see-more-heading-con">
+                                            <h5>See more</h5>
+                                        </div>
+                                        <div id="icon-div-see"><i class="fa-solid fa-angle-down"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="get-app-container">
+            <div class="sub-get-app-container">
+                <div class="mob-app-img-container">
+                    <div class="mob-app-img">
+                        <img src="/images/mobile.png" id="img">
+                    </div>
+                </div>
+                <div class="get-app-text-content-con">
+                    <div class="get-app-heading-con">
+                        <h2>Get the zomato app</h2>
+                        <p>We will send you a link,open it on youre phone to download the app</p>
+                        <div class="details-outer-container">
+                            <div class="details-container">
+                                <label>
+                                    <input type="radio" class="radio-btn" name="submit">
+                                    <span class="mail-cont">Email</span>
+                                </label>
+                            </div>
+                            <div class="details-container">
+                                <label>
+                                    <input type="radio" name="submit">
+                                    <span class="mail-cont">Phone</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-details-container">
+                        <div class="user-details">
+                            <div class="number-container">
+                                <span>Email</span>
+                                <!-- <span>+91</span>
+                            <span id="icon-number"><i class="fa-solid fa-angle-down"></i></span> -->
+                            </div>
+                            <!-- <div id="line-div"></div>
+                           <div class="type-input-container">
+                            <input type="text" placeholder="type here...">
+                           </div> -->
+                        </div>
+                        <button id="share-btn">
+                            <span>Share App link</span>
+                        </button>
+                    </div>
+                    <p id="download-text">Download app from</p>
+                    <div class="get-app-links-img">
+                        <a>
+                            <div class="img-link-con">
+                                <img src="/images/google play.png">
+                            </div>
+                        </a>
+                        <div class="img-link-con">
+                            <img src="/images/app store.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Explore-container">
+            <div class="Explore-sub-container">
+                <p>Explore options near me</p>
+                <div class="Explore-option-container">
+                    <div class="option-heading">
+                        <h5>Popular cuisines near me</h5>
+                    </div>
+                    <div class="option-icon-container">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="Explore-option-container">
+                    <div class="option-heading">
+                        <h5>Popular restaurant types near me</h5>
+                    </div>
+                    <div class="option-icon-container">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="Explore-option-container">
+                    <div class="option-heading">
+                        <h5>Top Restaurant Chains</h5>
+                    </div>
+                    <div class="option-icon-container">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="Explore-option-container">
+                    <div class="option-heading">
+                        <h5>Cities We Deliver To</h5>
+                    </div>
+                    <div class="option-icon-container">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-part-container">
+            <div class="footer-section-container">
+                <div class="footer-img-container">
+                    <img src="/images/footer img zomato.png">
+                </div>
+                <div class="footer-second-img-container">
+                    <div class="first-img-con">
+                        <div class="main-img-con">
+                            <img src="/images/Indian-Flag-PNG-9.png" id="flag">
+                            <span>India</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                    <div class="second-img-con">
+                        <div class="second-main-img-con">
+                            <span><i class="fa-solid fa-globe"></i></span>
+                            <span>English</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-second-section-container">
+            <div class="footer--section-sub-container">
+                <div class="footer-second-list-container">
+                    <h6>ABOUT ZOMATO</h6>
+                    <a href="#">
+                        <p>Who We Are</p>
+                    </a>
+                    <a href="#">
+                        <p>Blog</p>
+                    </a>
+                    <a href="#">
+                        <p>Work With Us</p>
+                    </a>
+                    <a href="#">
+                        <p>Investor Relations</p>
+                    </a>
+                    <a href="#">
+                        <p>Report Fraud</p>
+                    </a>
+                    <a href="#">
+                        <p>Press Kit</p>
+                    </a>
+                    <a href="#">
+                        <p>Contact Us</p>
+                    </a>
+                </div>
+                <div class="footer-second-list-container">
+                    <h6>ABOUT ZOMATO</h6>
+                    <a href="#">
+                        <p>Zomato</p>
+                    </a>
+                    <a href="#">
+                        <p>Blinkit</p>
+                    </a>
+                    <a href="#">
+                        <p>Feeding India</p>
+                    </a>
+                    <a href="#">
+                        <p>Hyperpure</p>
+                    </a>
+                    <a href="#">
+                        <p>Zomaland</p>
+                    </a>
+                </div>
+                <div class="footer-second-list-container">
+                    <h6>ABOUT ZOMATO</h6>
+                    <a href="#">
+                        <p>Partner With Us</p>
+                    </a>
+                    <a href="#">
+                        <p>Apps For You</p>
+                    </a>
+                    <div class="third-list-second-container">
+                        <h6>FOR ENTERPRICE</h6>
+                        <a href="#">
+                            <p>Zomato For Enterprice</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-second-list-container">
+                    <h6>ABOUT ZOMATO</h6>
+                    <a href="#">
+                        <p>Privacy</p>
+                    </a>
+                    <a href="#">
+                        <p>Security</p>
+                    </a>
+                    <a href="#">
+                        <p>Terms</p>
+                    </a>
+                    <a href="#">
+                        <p>Sitemap</p>
+                    </a>
+                </div>
+                <div class="socal-links-container">
+                    <h6>SOCIaL LINKS</h6>
+                    <div class="links-icon-container">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="socal-img-container">
+                        <img src="/images/app store.png">
+                    </div>
+                    <div class="socal-img-container">
+                        <img src="/images/google play.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-line-container">
+            <hr>
+        </div>
+        <div class="copy-r-conrtainer">
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+                Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All
+                rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
